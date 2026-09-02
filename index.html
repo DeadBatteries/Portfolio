@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>João CyberSecurity Student</title>
+<meta name="description" content="Portfólio pessoal — projetos, estudos e contato.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+<div class="bg-grid" aria-hidden="true"></div>
+<div class="bg-glow" aria-hidden="true"></div>
+
+<nav class="nav">
+  <div class="nav-inner">
+    <a href="index.html" class="nav-logo" data-transition>
+      <span class="cursor" aria-hidden="true"></span>
+      João Pedro Giacomini  
+    </a>
+    <div class="nav-links">
+      <a href="#sobre">~/sobre</a>
+      <a href="projetos.html" data-transition>~/projetos</a>
+      <a href="documentos.html" data-transition>~/documentos</a>
+      <a href="#contato">~/contato</a>
+    </div>
+    <button class="nav-toggle" aria-label="Abrir menu" aria-expanded="false">☰</button>
+  </div>
+</nav>
+
+<main class="shell">
+
+  <!-- ================= SOBRE MIM ================= -->
+  <header class="hero" id="sobre">
+    <div class="wrap">
+      <div class="hero-grid">
+        <div>
+          <p class="hero-eyebrow" data-boot-line>&gt;</p>
+          <h1>Transformando <span class="accent-text">curiosidade </span> em <span class="accent-text">conhecimento</span><br></h1>
+          <p class="hero-sub">
+
+            Sou estudante de Cybersecurity e entusiasta de tecnologia. Utilizo projetos pessoais, laboratórios e desafios práticos para transformar teoria em experiência, explorando temas como redes, Linux, segurança web, programação e infraestrutura.
+
+Neste portfólio, documento meus projetos, estudos e descobertas ao longo dessa jornada.
+
+          </p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="projetos.html" data-transition>Ver projetos</a>
+            <a class="btn btn-ghost" href="#contato">Entrar em contato</a>
+          </div>
+
+          <div class="stat-strip">
+            <div>
+              <div class="stat-num">20+</div>
+              <div class="stat-label">projetos entregues</div>
+            </div>
+            <div>
+              <div class="stat-num">12</div>
+              <div class="stat-label">estudos publicados</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-photo-frame">
+          <img src="assets/avatar-placeholder.svg" alt="Foto de Seu Nome">
+          <span class="hero-photo-tag"><span class="dot"></span>online</span>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- ================= PROJETOS (prévia) ================= -->
+  <section id="projetos">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <div>
+          <p class="section-path">~/<span class="dim">home/</span>projetos</p>
+          <h2>Projetos recentes</h2>
+        </div>
+        <a class="section-link" href="projetos.html" data-transition>ver todos os projetos →</a>
+      </div>
+
+      <div class="card-grid">
+        <a class="card reveal" href="https://github.com/" target="_blank" rel="noopener">
+          <div class="card-top">
+            <span class="card-icon" aria-hidden="true">◆</span>
+            <span class="card-arrow" aria-hidden="true">↗</span>
+          </div>
+          <h3>Nome do Projeto 01</h3>
+          <p>Breve descrição do que o projeto faz e qual problema ele resolve, em uma ou duas frases.</p>
+          <div class="card-tags"><span>React</span><span>Node</span></div>
+          <div class="card-status live"><span class="dot"></span>em produção</div>
+        </a>
+
+        <a class="card reveal" href="https://github.com/" target="_blank" rel="noopener">
+          <div class="card-top">
+            <span class="card-icon" aria-hidden="true">◆</span>
+            <span class="card-arrow" aria-hidden="true">↗</span>
+          </div>
+          <h3>Nome do Projeto 02</h3>
+          <p>Breve descrição do que o projeto faz e qual problema ele resolve, em uma ou duas frases.</p>
+          <div class="card-tags"><span>Python</span><span>API</span></div>
+          <div class="card-status"><span class="dot"></span>em desenvolvimento</div>
+        </a>
+
+        <a class="card reveal" href="https://github.com/" target="_blank" rel="noopener">
+          <div class="card-top">
+            <span class="card-icon" aria-hidden="true">◆</span>
+            <span class="card-arrow" aria-hidden="true">↗</span>
+          </div>
+          <h3>Nome do Projeto 03</h3>
+          <p>Breve descrição do que o projeto faz e qual problema ele resolve, em uma ou duas frases.</p>
+          <div class="card-tags"><span>Rust</span><span>CLI</span></div>
+          <div class="card-status live"><span class="dot"></span>em produção</div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= DOCUMENTOS (prévia) ================= -->
+  <section id="documentos">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <div>
+          <p class="section-path">~/<span class="dim">home/</span>documentos</p>
+          <h2>Últimos estudos</h2>
+        </div>
+        <a class="section-link" href="documentos.html" data-transition>ver todos os documentos →</a>
+      </div>
+
+      <div class="doc-list">
+        <a class="doc-row reveal" href="#">
+          <span class="doc-date">2025.03</span>
+          <div class="doc-info">
+            <h3>Anotações sobre arquitetura hexagonal</h3>
+            <p>Resumo prático de como separei domínio, aplicação e infraestrutura em um projeto real.</p>
+          </div>
+          <span class="doc-tag">arquitetura</span>
+        </a>
+        <a class="doc-row reveal" href="#">
+          <span class="doc-date">2025.02</span>
+          <div class="doc-info">
+            <h3>Fundamentos de criptografia simétrica</h3>
+            <p>Notas de estudo sobre AES, modos de operação e erros comuns de implementação.</p>
+          </div>
+          <span class="doc-tag">segurança</span>
+        </a>
+        <a class="doc-row reveal" href="#">
+          <span class="doc-date">2025.01</span>
+          <div class="doc-info">
+            <h3>Indexação e planos de execução em Postgres</h3>
+            <p>Como o EXPLAIN ANALYZE me ajudou a entender e corrigir queries lentas.</p>
+          </div>
+          <span class="doc-tag">banco de dados</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= CONTATO ================= -->
+  <section class="contact-section" id="contato">
+    <div class="wrap contact-inner">
+      <div class="reveal">
+        <p class="section-path">~/<span class="dim">home/</span>contato</p>
+        <h2>Vamos conversar.</h2>
+        <p class="lead">Aberto(a) a oportunidades, colaborações e boas conversas. Escolha o melhor canal ao lado.</p>
+      </div>
+
+      <div class="contact-list reveal">
+        <a class="contact-item" href="mailto:contato@joaogiacomini@gmail.com">
+          <span><span class="label">email</span><span class="value">contatojoaogiacomini@gmail.com</span></span>
+          <span class="go" aria-hidden="true">↗</span>
+        </a>
+        <a class="contact-item" href="https://github.com/DeadBatteries" target="_blank" rel="noopener">
+          <span><span class="label">github</span><span class="value">https://github.com/DeadBatteries</span></span>
+          <span class="go" aria-hidden="true">↗</span>
+        </a>
+        <a class="contact-item" href="https://www.linkedin.com/in/jo%C3%A3o-pedro-giacomini-a73427217/" target="_blank" rel="noopener">
+          <span><span class="label">linkedin</span><span class="value">https://www.linkedin.com/in/joao-pedro-giacomini</span></span>
+          <span class="go" aria-hidden="true">↗</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="wrap footer-inner">
+    <span>© 2025 — todos os direitos reservados.</span>
+  </div>
+</footer>
+
+<script src="assets/main.js"></script>
+</body>
+</html>

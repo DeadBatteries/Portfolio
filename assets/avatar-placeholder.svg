@@ -1,0 +1,28 @@
+<svg width="480" height="480" viewBox="0 0 480 480" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#141B24"/>
+      <stop offset="100%" stop-color="#0A0E14"/>
+    </linearGradient>
+    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M 24 0 L 0 0 0 24" fill="none" stroke="#1D2530" stroke-width="1"/>
+    </pattern>
+    <linearGradient id="scan" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#4EF0C4" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#4EF0C4" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#4EF0C4" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect width="480" height="480" fill="url(#bg)"/>
+  <rect width="480" height="480" fill="url(#grid)"/>
+  <rect width="480" height="480" fill="url(#scan)"/>
+  <!-- silhueta minimalista -->
+  <circle cx="240" cy="190" r="72" fill="none" stroke="#2A3542" stroke-width="2"/>
+  <path d="M 110 420 C 110 310 170 275 240 275 C 310 275 370 310 370 420" fill="none" stroke="#2A3542" stroke-width="2"/>
+  <!-- crosshair de canto, estetica tecnica -->
+  <path d="M 24 60 L 24 24 L 60 24" fill="none" stroke="#4EF0C4" stroke-width="2"/>
+  <path d="M 420 24 L 456 24 L 456 60" fill="none" stroke="#4EF0C4" stroke-width="2"/>
+  <path d="M 456 420 L 456 456 L 420 456" fill="none" stroke="#4EF0C4" stroke-width="2"/>
+  <path d="M 60 456 L 24 456 L 24 420" fill="none" stroke="#4EF0C4" stroke-width="2"/>
+  <text x="240" y="452" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="13" fill="#7C8B9C">substitua-por-sua-foto.jpg</text>
+</svg>

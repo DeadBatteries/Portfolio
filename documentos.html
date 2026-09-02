@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Documentos — João Pedro Giacomini</title>
+<meta name="description" content="Anotações de estudo publicadas.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+<div class="bg-grid" aria-hidden="true"></div>
+<div class="bg-glow" aria-hidden="true"></div>
+
+<nav class="nav">
+  <div class="nav-inner">
+    <a href="index.html" class="nav-logo" data-transition>
+      <span class="cursor" aria-hidden="true"></span>
+      João Pedro Giacomini
+    </a>
+    <div class="nav-links">
+      <a href="index.html#sobre" data-transition>~/sobre</a>
+      <a href="projetos.html" data-transition>~/projetos</a>
+      <a href="documentos.html" aria-current="page">~/documentos</a>
+      <a href="index.html#contato" data-transition>~/contato</a>
+    </div>
+    <button class="nav-toggle" aria-label="Abrir menu" aria-expanded="false">☰</button>
+  </div>
+</nav>
+
+<main class="shell">
+
+  <header class="page-header">
+    <div class="wrap">
+      <a class="back-link" href="index.html" data-transition>← voltar para a home</a>
+      <p class="section-path">~/<span class="dim">home/</span>documentos</p>
+      <h1>Documentos</h1>
+      <p>Anotações dos meus estudos, publicadas para consulta própria e de quem mais precisar. Sem filtro de "pronto para publicar" — são notas de trabalho.</p>
+    </div>
+  </header>
+
+  <section>
+    <div class="wrap">
+
+      <div class="docs-toolbar reveal">
+        <!--<div class="docs-search">
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true">
+            <circle cx="7" cy="7" r="5.5" stroke="currentColor" stroke-width="1.4"/>
+            <path d="M11.5 11.5L14.5 14.5" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/>
+          </svg>
+          <input type="text" data-docs-search placeholder="buscar documentos..." aria-label="Buscar documentos">
+        </div>-->
+
+        <!--<div class="docs-modules" role="tablist" aria-label="Filtrar por módulo">
+          <button class="module-chip active" data-module="todos">todos<span class="chip-count"></span></button>
+          <button class="module-chip" data-module="arquitetura-sistemas">arquitetura &amp; sistemas<span class="chip-count"></span></button>
+          <button class="module-chip" data-module="seguranca">segurança<span class="chip-count"></span></button>
+          <button class="module-chip" data-module="banco-de-dados">banco de dados<span class="chip-count"></span></button>
+          <button class="module-chip" data-module="infraestrutura">infraestrutura<span class="chip-count"></span></button>
+        </div>-->
+        
+      </div>
+
+      <div class="doc-list" id="doc-list">
+        <!-- Os documentos serão inseridos aqui pelo JavaScript -->
+        <div class="loading-docs">Carregando documentos...</div>
+      </div>
+
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="wrap footer-inner">
+    <span>© 2025 João Pedro Giacomini — todos os direitos reservados.</span>
+    <span>construído com HTML, CSS e JS puros</span>
+  </div>
+</footer>
+
+<script src="get-documents.js"></script>
+</body>
+</html>
